@@ -1,0 +1,405 @@
+html{
+    margin:0;
+    padding:0;
+    box-sizing:none;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header{
+    background:#1f970a;
+    height:80px;
+    width:100%;
+
+}
+.nav{
+    margin-right:40px;
+    float:right;
+    margin-top:30px;
+}
+
+.nav>a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    margin:10px;
+}
+
+.logo{
+
+    float:left;
+    margin-left:20PX;
+    
+}
+
+.logo >img{
+    background-color: #1f970a;
+    width:100px;
+    height:80px;
+    line-height:20px;
+}
+
+.bottom-nav-icons{
+    width:100%;
+    height:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.icons{
+    float:right;
+    margin-right:30px;
+    margin-top:8px;
+    
+}
+
+.icons > a{
+    margin:10px;
+    
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  padding:5px;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+  padding:5px;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+  padding:5px;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+  padding:5px;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+  padding:5px;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #b51010;
+  }
+  
+
+  /* .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  } */
+
+  /* why us CSS */
+
+  mark{
+    color:red;
+    background-color:white;
+    font-weight:bold;
+  }
+  .section1{
+    display:flex;
+    gap:10px;
+  }
+  .section1 > .img img{
+    width:573px; 
+  }
+  .section-overview{
+    width:90%;
+    margin: auto;
+  }
+  .overview{
+    text-align:center;
+  }
+
+  .section2{
+    display:flex;
+    gap:10px;
+  }
+   .section2 > .img img{
+    width:550px; 
+  }
+
+  /* HOME PAGE RESPONSIVE */
+
+  @media only screen and (max-width: 768px){
+.section1{
+  display: block;
+  width:90%;
+}
+.section1 > .img img{
+  width:100%;
+}
+
+.section2 > .img img{
+  width:100%;
+}
+
+.section2{
+  display:block;
+  margin-top:5%;
+}
+
+.footer-section{
+  padding-left:25%;
+}
+
+  }
+
+
+  /* FOOTER SECTION */
+  .top-footer{
+    background-color:rgb(93, 224, 93);
+    width:100%;
+    height:230px;
+    margin-top:20px;
+    border:1px solid red;
+  }
+  
+
+  .footer-section{
+    align-items: center;
+    display:flex;
+    padding-left:25%;
+    gap:90px;
+    border:1px solid red;
+  }
+ 
+
+  .section-2 h4{
+    color:black;
+
+  }
+
+  .section-2 a{
+    margin:10px;
+    color:white;
+    font-size:20px;
+    display:block;
+    text-decoration:none;
+  }
+
+  .section-3 > h4{
+    color:black;
+  
+  }
+  .section-3 a{
+    text-align: left;
+    display:block;
+    left:0;
+    text-decoration:none;
+    margin: 10px;
+    color:white;
+    font-variant: initial;
+  }
+  .section-3 a:hover{
+    color:red;
+    text-decoration:underline;
+  }
+
+  .section-2 a:hover{
+    color:red;
+    text-decoration:underline;
+  }
+  
+  .section-3 textarea{
+    color:white;
+
+    font-size:10px;
+
+    background-color:transparent;
+  
+  }
+
+  #btn{
+    background:blue;
+    border:none;
+    color:white;
+    padding:5px;
+  }
+
+  /* ABOUT US CSS */
+
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+.what-we-do,
+.team {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.we_do_section{
+  background-color:white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap:30px;
+  margin-bottom:20px;
+}
+
+.sec1{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width:50%;
+  height:100%;
+}
+.sec1>a{
+  margin-bottom:20px;
+  text-decoration:none;
+}
+
+.sec1>a:hover{
+  text-decoration: underline;
+  color:red;
+}
+.sec1 img{
+  width:18rem;
+  height:12rem;
+}
+
+.section-team{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  gap:20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-team h2 {
+  text-align: center;
+}
+
+.team-member {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.team-member a{
+  text-decoration:none;
+  color:blue;
+}
+
+.items .item1{
+  margin:5px;
+}
+
+/* ABOUT US RESPONSIVE */
+
+@media only screen and (max-width: 768px){
+  .we_do_section{
+    display: block;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-left:20%;
+  }
+
+  .section-team{
+    display:block;
+  }
+
+}
+/* PRODUCT PAGE RESPONSIVE */
+@media only screen and (max-width: 768px){
+  .products>.items{
+    display: block;
+
+  }
+  .PURPOSE{
+    font-size:10px;
+    text-align: center;
+    color:red;
+    font-weight:bold;
+  }
+}
